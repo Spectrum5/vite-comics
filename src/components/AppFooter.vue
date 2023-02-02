@@ -1,5 +1,11 @@
 <script>
+import AppTopFooter from "./AppTopFooter.vue"
+
 export default {
+    components: {
+        AppTopFooter,
+    },
+
     data() {
         return {
             
@@ -10,10 +16,13 @@ export default {
 
 <template>
     <!-- creazione template html -->
-    Footer
+    <div class="container">
+        <AppTopFooter />
+
+    </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
     /* aggiunta stile css */
 
 </style>
