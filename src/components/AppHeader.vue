@@ -54,11 +54,13 @@ export default {
 
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* aggiunta stile css */
 .header-container {
     display: flex;
     justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
 }
 
 .logo-header img {
@@ -68,22 +70,22 @@ export default {
 .nav-header {
     display: flex; 
     align-items: center;
-}
-.nav-header ul {
-    display: flex;
-}
+    
+    ul {
+        display: flex;
+        li {
+            list-style-type: none;
+            padding-left: 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-weight: bold;
 
-.nav-header ul li {
-    list-style-type: none;
-    padding-left: 20px;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.nav-header ul li a {
-    text-decoration: none;
-    color: inherit;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
 }
 
 </style>

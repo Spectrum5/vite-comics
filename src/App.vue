@@ -27,11 +27,8 @@ export default {
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@use "./styles/main.scss"
   /* aggiunta stile css */
-.container {
-  width: 65%;
-  margin: 0 auto;
-}
 
 </style>
