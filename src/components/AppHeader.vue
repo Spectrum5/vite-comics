@@ -17,7 +17,7 @@ export default {
         <div class="nav-header">
             <ul>
                 <li>
-                    <a href="#">character</a>
+                    <a href="#">characters</a>
                 </li>
                 <li>
                     <a href="#">comics</a>
@@ -65,6 +65,8 @@ export default {
 
 .logo-header img {
     width: 81px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .nav-header {

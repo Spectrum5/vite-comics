@@ -13,7 +13,7 @@ export default {
     <div class="container">
         <div class="content-main">
             <h1>
-            --> Content goes here
+                --> Content goes here &lt;--
             </h1>
         </div>
     </div>
@@ -22,14 +22,14 @@ export default {
 
 <style scoped lang="scss">
     /* aggiunta stile css */
-.content-main {
-    width: 65%;
-    margin: 0 auto;
-}
-
 .container {
     background-color: #1c1c1c;
-    margin: 0;
-    width: 100%;
+    color: white;
+    padding: 55px 0 55px;
+
+    .content-main {
+        width: 65%;
+        margin: 0 auto;
+    }
 }
 </style>
