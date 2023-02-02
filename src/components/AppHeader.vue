@@ -59,7 +59,7 @@ export default {
 .header-container {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
 }
 

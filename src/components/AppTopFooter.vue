@@ -55,7 +55,7 @@ export default {
     padding: 70px 0 70px;
 
     .container-top-footer {
-        width: 65%;
+        width: 70%;
         margin: 0 auto;
         display: flex;
         justify-content: space-evenly;
