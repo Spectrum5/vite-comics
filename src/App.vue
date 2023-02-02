@@ -20,15 +20,18 @@ export default {
 
 <template>
   <!-- creazione template html -->
-
-  <AppHeader />
-  <AppMain />
-  <AppFooter />
-
+  <div class="container">
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
+  </div>
 </template>
 
 <style>
   /* aggiunta stile css */
-
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
 
 </style>

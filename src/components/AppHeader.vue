@@ -10,11 +10,80 @@ export default {
 
 <template>
     <!-- creazione template html -->
-    Header
+    <div class="header-container">
+        <div class="logo-header">
+            <img src="../assets/img/dc-logo.png" alt="">
+        </div>
+        <div class="nav-header">
+            <ul>
+                <li>
+                    <a href="#">character</a>
+                </li>
+                <li>
+                    <a href="#">comics</a>
+                </li>
+                <li>
+                    <a href="#">movies</a>
+                </li>
+                <li>
+                    <a href="#">tv</a>
+                </li>
+                <li>
+                    <a href="#">games</a>
+                </li>
+                <li>
+                    <a href="#">collectibles</a>
+                </li>
+                <li>
+                    <a href="#">videos</a>
+                </li>
+                <li>
+                    <a href="#">fans</a>
+                </li>
+                <li>
+                    <a href="#">news</a>
+                </li>
+                <li>
+                    <a href="#">shop</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
 
 </template>
 
 <style scoped>
 /* aggiunta stile css */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header img {
+    width: 81px;
+}
+
+.nav-header {
+    display: flex; 
+    align-items: center;
+}
+.nav-header ul {
+    display: flex;
+}
+
+.nav-header ul li {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: inherit;
+}
 
 </style>
