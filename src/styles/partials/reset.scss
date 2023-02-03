@@ -6,10 +6,18 @@
 
 img {
     max-width: 100%;
-    display: block;
 }
 
 button {
     border: none;
     background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor
+}
+
+ul, ol {
+    list-style: none;
 }

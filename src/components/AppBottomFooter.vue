@@ -16,7 +16,7 @@ export default {
             <a class="my-button" href="#">sign-up now!</a>
 
             <div class="social-footer">
-                <span>FOLLOW US</span>
+                <span>follow us</span>
                 <ul>
                     <li>
                         <a href="#">
@@ -78,6 +78,7 @@ export default {
 
             span {
                 color: #0282f9;
+                text-transform: uppercase;
             }
 
             ul {
