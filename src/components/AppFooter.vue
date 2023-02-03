@@ -1,9 +1,11 @@
 <script>
 import AppTopFooter from "./AppTopFooter.vue"
+import AppBottomFooter from "./AppBottomFooter.vue"
 
 export default {
     components: {
         AppTopFooter,
+        AppBottomFooter
     },
 
     data() {
@@ -136,6 +138,7 @@ export default {
             </div>
         </div>
     </div>
+    <AppBottomFooter />
 </template>
 
 <style scoped lang="scss">
@@ -169,7 +172,6 @@ export default {
                         padding-bottom: 8px;
 
                         a {
-                            text-decoration: none;
                             color: #797979;
                         }
                     }

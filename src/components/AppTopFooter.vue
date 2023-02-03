@@ -48,7 +48,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-/* aggiunta stile css */
+    /* aggiunta stile css */
 .top-footer-container {
     background-color: #0282f9;
     color: white;
