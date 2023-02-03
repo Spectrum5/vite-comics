@@ -12,9 +12,7 @@ export default {
     <!-- creazione template html -->
     <div class="container">
         <div class="content-main">
-            <h1>
-                --> Content goes here &lt;--
-            </h1>
+            
         </div>
     </div>
 
@@ -23,9 +21,8 @@ export default {
 <style scoped lang="scss">
     /* aggiunta stile css */
 .container {
-    background-color: #1c1c1c;
-    color: white;
-    padding: 55px 0 55px;
+    background-image: url(../assets/img/jumbotron.jpg);
+    height: 400px;
 
     .content-main {
         width: 70%;
