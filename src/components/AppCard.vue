@@ -15,7 +15,7 @@ export default {
 <template>
     <div class="card">
         <img :src="img" :alt="title">
-        <h4>{{ title }}</h4>
+        <a href="#"><h4>{{ title }}</h4></a>
     </div>
 </template>
 
