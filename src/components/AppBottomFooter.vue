@@ -67,6 +67,8 @@ export default {
             padding:12px;
             margin: 10px 0 10px;
             cursor:pointer;
+            text-transform: uppercase;
+            font-weight: bold;
             .my-button:hover {
 	            background-color:black;
             }
@@ -75,6 +77,7 @@ export default {
             display: flex;
             align-items: center;
             color: white;
+            font-weight: bold;
 
             span {
                 color: #0282f9;
